@@ -2,6 +2,7 @@ import './App.css'
 import AudioPlayer from 'material-ui-audio-player'
 import Mirror from './assets/Mirror.wav'
 import Cover from './assets/Cover.wav'
+import Vanessa from './assets/Vanessa.mp3'
 
 function App() {
   return (
@@ -36,6 +37,19 @@ function App() {
           src={Cover}
         />
         <br />
+        <h4>Rage</h4>
+        <AudioPlayer
+          elevation={1}
+          width="55%"
+          variation="default"
+          spacing={3}
+          download={false}
+          autoplay={false}
+          order="standart"
+          preload="auto"
+          loop={true}
+          src={Vanessa}
+        />
       </header>
     </div>
   )
