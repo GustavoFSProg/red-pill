@@ -3,7 +3,6 @@ import AudioPlayer from 'material-ui-audio-player'
 import Mirror from './assets/Mirror.wav'
 import Cover from './assets/Cover.wav'
 import Vanessa from './assets/Vanessa.mp3'
-import RPG from './assets/Rpg.mp3'
 
 function App() {
   return (
@@ -65,21 +64,7 @@ function App() {
             src={Vanessa}
           />
           <br />
-          <h3>RPG</h3>
-          <AudioPlayer
-            elevation={1}
-            width="55%"
-            variation="default"
-            spacing={3}
-            download={false}
-            autoplay={false}
-            order="standart"
-            preload="auto"
-            loop={true}
-            src={RPG}
-          />
-          <br />
-          <br />
+         
           <div
             style={{
               display: 'flex',
